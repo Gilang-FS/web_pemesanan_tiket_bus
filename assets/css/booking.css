@@ -1,0 +1,77 @@
+/* Booking Form Styling */
+
+.booking-card {
+  border-radius: 0.75rem;
+}
+
+.booking-card .card-header {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+}
+
+.booking-info-box {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.booking-info-box h6 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #495057;
+}
+
+.booking-info-box .row > div {
+  margin-bottom: 0.5rem;
+}
+
+.booking-info-box small {
+  display: block;
+  color: #6c757d;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.booking-info-box strong {
+  color: #212529;
+  font-size: 0.95rem;
+}
+
+.price-summary {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.price-summary .price-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.price-summary hr {
+  margin: 0.75rem 0;
+}
+
+.price-summary .total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking-form .form-label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.booking-form .form-control,
+.booking-form .form-select {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.booking-form .btn-lg {
+  padding: 1rem;
+  font-weight: 600;
+}

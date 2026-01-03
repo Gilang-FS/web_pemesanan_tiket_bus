@@ -1,0 +1,57 @@
+/* Dashboard Styling */
+
+.dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.stat-card .card-body {
+  padding: 1.5rem;
+}
+
+.stat-icon {
+  font-size: 3rem;
+  opacity: 0.5;
+}
+
+.stat-card .card-subtitle {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-card .card-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.table-card {
+  border-radius: 0.75rem;
+}
+
+.table-card .card-header {
+  border-bottom: 2px solid #f0f0f0;
+  padding: 1rem 1.5rem;
+}
+
+.table-hover tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.empty-state {
+  padding: 3rem 1rem;
+}
+
+.empty-state i {
+  font-size: 4rem;
+  color: #ccc;
+}
